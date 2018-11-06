@@ -135,7 +135,7 @@ To configure and setup monitoring:
    reported `Running` or `Completed`:
 
      ```shell
-     kubectl get pods --namespace monitoring --watch
+     kubectl get pods --namespace knative-monitoring --watch
      ```
 
      ```
